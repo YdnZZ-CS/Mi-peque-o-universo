@@ -398,6 +398,27 @@ button{
 
 }
 
+@media (max-width:900px) and (orientation:landscape){
+
+.moon{
+    width:130px;
+    height:130px;
+}
+
+.tulipan{
+    width:100px;
+    bottom:2%;
+}
+
+h1{
+    font-size:35px;
+}
+
+.box{
+    max-height:220px;
 }
 
 }
+
+}
+
