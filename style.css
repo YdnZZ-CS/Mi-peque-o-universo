@@ -346,4 +346,81 @@ flex-direction:column;
 
 }
 
+/* Ajustes para celulares */
+@media (max-width: 600px){
+
+body{
+    overflow-y:auto;
+    min-height:100vh;
+}
+
+
+/* título */
+h1{
+    font-size:32px;
+    text-align:center;
+}
+
+
+/* texto */
+p{
+    font-size:16px;
+    text-align:center;
+}
+
+
+/* luna */
+.moon{
+    width:120px;
+    height:120px;
+    top:5%;
+    right:50%;
+    transform:translateX(50%);
+}
+
+
+/* contenedor */
+.container{
+    width:90%;
+}
+
+
+/* botones */
+.buttons{
+
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+
+}
+
+
+button{
+
+    width:85%;
+    font-size:16px;
+
+}
+
+
+/* cajas de mensajes */
+.box{
+
+    max-width:90%;
+    max-height:350px;
+    margin:auto;
+
+}
+
+
+/* tulipán */
+.tulipan{
+
+    width:120px;
+    bottom:3%;
+
+}
+
+}
+
 }
