@@ -321,4 +321,29 @@ box-shadow:
 
 margin:20px;
 
+@media (max-width:600px){
+
+h1{
+font-size:35px;
+}
+
+.moon{
+width:130px;
+height:130px;
+}
+
+.tulipan{
+width:100px;
+}
+
+.box{
+max-width:90%;
+}
+
+.buttons{
+flex-direction:column;
+}
+
+}
+
 }
